@@ -1,0 +1,37 @@
+{
+    "name": "ozon122021",
+    "description": "ozon122021 description",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": "Sergei MILITER Tarasov <militer@htmlcssjs.pro> (https://htmlcssjs.pro)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/htmlcssjspro/ozon122021.git"
+    },
+    "homepage": "https://github.com/htmlcssjspro/ozon122021/#readme",
+    "bugs": {
+        "url": "https://github.com/htmlcssjspro/ozon122021/issues"
+    },
+    "license": "MIT",
+    "scripts": {
+        "dev": "npx webpack-dev-server --mode development",
+        "prod": "npx webpack-dev-server --mode production",
+        "watch": "npx webpack --watch --mode production",
+        "build": "npx webpack --mode production"
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.5",
+        "@babel/eslint-parser": "^7.16.5",
+        "@babel/plugin-proposal-class-properties": "^7.16.5",
+        "@babel/preset-env": "^7.16.5",
+        "eslint": "^8.5.0",
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.6.0"
+    },
+    "dependencies": {}
+}
