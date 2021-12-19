@@ -1,7 +1,10 @@
 'use strict';
 
+import dbUrl from './db';
+
 const getData = () => {
-    return fetch('https://ozone-197c6-default-rtdb.firebaseio.com/goods.json')
+    // return fetch(`${dbUrl}${search ? `?search=${search}` : ''}`)
+    return fetch(dbUrl)
         .then((response) => response.json());
 };
 
