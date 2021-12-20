@@ -9,7 +9,6 @@ const search = () => {
         getData().then(data => {
             renderGoods(searchFilter(data, value));
         });
-
     });
 };
 

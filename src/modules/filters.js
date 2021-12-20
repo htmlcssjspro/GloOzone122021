@@ -17,3 +17,13 @@ export const priceFilter = (goods, min, max) => {
         return item.price >= min && item.price <= max;
     });
 };
+
+export const hotSaleFilter = (goods, hotSale) => {
+    return goods.filter(item => {
+        if (hotSale) {
+            return item.sale === true;
+        } else {
+            return item;
+        }
+    });
+};
